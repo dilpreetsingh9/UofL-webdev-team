@@ -1,0 +1,40 @@
+@media only screen and (min-width: 1011px){
+
+/* change head image to mid version */
+
+	#head-image {
+		background-image: url("../images/web_graphics/top-logo.jpg");
+		min-height:150px;
+		}
+	
+	#head-contact a, #head-contact a:visited, #head-contact {
+		font-size: 1.1em;
+		}
+		
+	section {
+		margin: 30px;
+		}
+	
+	article {
+		width: 29%;
+		}
+		
+	section article figure img {
+		max-width:100%;
+		}
+	
+	#footer-site-links, #footer-socials {
+		font-size: 1.5em;
+		}
+
+	#footer-site-links {
+		margin-left: 6em;
+		}
+
+	#footer-socials {
+		margin-right: 6em;
+		}
+
+
+		
+}

@@ -1,0 +1,74 @@
+@media only screen and (min-width: 571px) {
+
+/* show nav bar in usual place */
+
+	nav label {
+		display:none;
+	}
+	
+	nav {
+		position: absolute;
+		bottom: 0;
+		top: initial;
+		left: initial;
+		width: 100%;
+		min-width: initial;
+		margin-left:auto;
+		margin-right:auto;
+		text-align: center;
+	}
+	
+	nav ul {
+		max-height: initial;
+	}
+
+	nav a:link, nav a:visited {
+		font-size: 0.9em;
+		display: inline-block;
+		width:12em;
+		padding:.5em;
+		margin-bottom: .1em;
+	}
+
+/* change head image to mid version */
+
+	#head-image {
+		background-image: url("../images/web_graphics/top-logo-tab.jpg");
+		min-height:130px;
+	}
+	
+	#head-contact a, #head-contact a:visited, #head-contact {
+		font-size: 1.05em;
+	}
+	
+/* box model changes for tablet */
+	section {
+		margin: 20px;
+		}
+
+	article {
+		width: 45%;
+		}
+		
+	article.info, article.park-map {
+		width: 95%;
+		}
+	
+	section article figure img {
+		max-width:80%;
+		}
+
+	#footer-site-links, #footer-socials {
+		font-size: 1.3em;
+		}
+
+	#footer-site-links {
+		margin-left: 3em;
+		}
+
+	#footer-socials {
+		margin-right: 3em;
+		}
+
+} /* end of tablet media query */
+
