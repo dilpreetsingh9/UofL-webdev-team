@@ -32,7 +32,7 @@ h2 {
 /* anchors */
 
 a, a:visited {
-	color: #faa;
+	color: #ff0000;
 	text-decoration: none;
 	transition: color .5s;
 	-webkit-transition: color .5s;
@@ -48,7 +48,7 @@ a:hover {
 
 nav {
     list-style:none;
-    text-align:center;
+    text-align:right;
 }
 
 nav ul
@@ -125,5 +125,6 @@ footer {
 footer, #footer-legal, #footer-credits{
 	border-top: 2px solid #555;
 	font-size: 0.8em;
+    color: blue;
 	}
 	
