@@ -21,6 +21,29 @@ h1 {
 	font-family: Bangers, Verdana, sans-serif;
 	font-size: 2.7em;
 	text-align: center;
+    -webkit-animation-name: header_color; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: header_color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes header_color {
+    0%   {color:#eee; }
+    25%  {color:yellow; }
+    50%  {color:orange; }
+    75%  {color:green; }
+    100% {color:red; }
+}
+
+/* Standard syntax */
+@keyframes header_color {
+    0%   {color:red;}
+    25%  {color:yellow; }
+    50%  {color:orange; }
+    75%  {color:green; }
+    100% {color:red; }
 }
 
 h2 {
